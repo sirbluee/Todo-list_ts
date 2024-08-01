@@ -25,12 +25,12 @@ const TodoItem: React.FC<TodoItemProps> = ({ todo, toggleTodo, deleteTodo, handl
             todo.completed ? "line-through text-gray-500" : ""
           }`}
         >
-          {todo.text}
+          {todo.task}
         </span>
       </div>
       <div className=" flex gap-2">
         <button
-          onClick={() => handleEdit(todo.id, todo.text)}
+          onClick={() => handleEdit(todo.id, todo.task)}
           className="bg-blue-500 text-white p-2 rounded"
         >
           Edit
