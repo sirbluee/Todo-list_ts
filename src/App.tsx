@@ -19,12 +19,7 @@ const App: React.FC = () => {
           throw new Error("Failed to fetch tasks");
         }
         const data = await response.json();
-        const tasksWithCompletion = data.map(
-          (task: Omit<Todo, "completed">) => ({
-            ...task,
-            completed: task.completed ?? false,
-          })
-        );
+        const tasksWithCompletion: Todo[] = data; // Adjust if the data is nested
         setTodos(tasksWithCompletion);
       } catch (error) {
         console.error("Error fetching data:", error);

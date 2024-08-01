@@ -1,29 +1,9 @@
 {
   "tasks": [
     {
-      "id": "b42c",
-      "task": "asa",
-      "completed": false
-    },
-    {
-      "id": "5e00",
-      "task": "aaas",
-      "completed": false
-    },
-    {
-      "id": "d0eb",
-      "task": "asas",
-      "completed": false
-    },
-    {
-      "id": "8ac4",
-      "task": "sa",
-      "completed": false
-    },
-    {
-      "id": "0beb",
-      "task": "xzx",
-      "completed": false
+      "id": "eff2",
+      "task": "sadas",
+      "completed": true
     }
   ]
 }
